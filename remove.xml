@@ -1,0 +1,44 @@
+ <Configuration>
+      <Remove OfficeClientEdition="32" >
+        <Product ID="O365ProPlusRetail">
+          <Language ID="en-us" />
+          <Language ID="nl-nl" />
+          <Language ID="de-de" />
+          <Language ID="it-it" />
+          <Language ID="es-es" />
+          <Language ID="pl-pl" />
+          <Language ID="cs-cz" />
+          <Language ID="ro-ro" />
+          <Language ID="sk-sk" />
+        </Product>
+      </Remove>
+      <Remove OfficeClientEdition="64" >
+        <Product ID="O365ProPlusRetail">
+          <Language ID="en-us" />
+          <Language ID="nl-nl" />
+          <Language ID="de-de" />
+          <Language ID="it-it" />
+          <Language ID="es-es" />
+          <Language ID="pl-pl" />
+          <Language ID="cs-cz" />
+          <Language ID="ro-ro" />
+          <Language ID="sk-sk" />
+        </Product>
+      </Remove>
+     <Remove OfficeClientEdition="64" >
+        <Product ID="OneNoteRetail">
+          <Language ID="en-us" />
+          <Language ID="nl-nl" />
+          <Language ID="de-de" />
+          <Language ID="it-it" />
+          <Language ID="es-es" />
+          <Language ID="pl-pl" />
+          <Language ID="cs-cz" />
+          <Language ID="ro-ro" />
+          <Language ID="sk-sk" />
+        </Product>
+      </Remove> 
+      <Updates Enabled="TRUE" />
+      <Display Level="full" AcceptEULA="TRUE" />
+      <Logging Name="OfficeSetup.txt" Path="%temp%" />
+    </Configuration>
